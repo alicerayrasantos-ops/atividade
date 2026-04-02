@@ -1,8 +1,8 @@
-# Sistema de Olimpíadas 🏆
+ Sistema de Olimpíadas 
 
 Este projeto simula um sistema de provas com participantes, questões e tentativas.
 
-## 📌 Funcionalidades
+ Funcionalidades
 
 - Cadastro de participantes
 - Cadastro de provas
@@ -10,15 +10,15 @@ Este projeto simula um sistema de provas com participantes, questões e tentativ
 - Registro de tentativas
 - Cálculo de nota
 
-## 🧠 Aplicação de SOLID
+  Aplicação de SOLID
 
-### SRP (Single Responsibility Principle)
+ SRP (Single Responsibility Principle)
 Cada classe possui uma única responsabilidade.
 
 ### OCP (Open/Closed Principle)
 O sistema permite extensão sem alterar código existente.
 
-## 🗂️ Estrutura
+ Estrutura
 
 - model: entidades
 - service: regras de negócio
