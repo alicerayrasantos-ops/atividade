@@ -1,25 +1,63 @@
- Sistema de Olimpíadas 
+# Sistema de Olimpíadas
 
-Este projeto simula um sistema de provas com participantes, questões e tentativas.
+ o objetivo de simular um sistema de provas, contendo participantes, questões e tentativas.
 
- Funcionalidades
+---
 
-- Cadastro de participantes
-- Cadastro de provas
-- Aplicação de questões
-- Registro de tentativas
-- Cálculo de nota
+## O que o sistema faz
 
-  Aplicação de SOLID
+O sistema permite:
 
- SRP (Single Responsibility Principle)
-Cada classe possui uma única responsabilidade.
+* Cadastrar participantes
+* Cadastrar provas
+* Criar questões com alternativas
+* Aplicar questões aos participantes
+* Registrar respostas
+* Calcular a nota final
 
-### OCP (Open/Closed Principle)
-O sistema permite extensão sem alterar código existente.
+---
 
- Estrutura
+## Refatoração do código
 
-- model: entidades
-- service: regras de negócio
+O código foi reorganizado para melhorar a organização e facilitar o entendimento.
+
+* As classes do pacote `model` ficaram responsáveis apenas por representar os dados do sistema
+* As classes do pacote `service` ficaram responsáveis pelas regras de funcionamento
+* A classe `App` ficou responsável por executar o sistema e interagir com o usuário
+
+
+---
+
+## Aplicação dos princípios SOLID
+
+### SRP - Princípio da Responsabilidade Única
+
+
+Isso evita que uma mesma classe tenha muitas funções diferentes.
+
+---
+
+### OCP - Princípio Aberto/Fechado
+
+O sistema foi organizado de forma que seja possível adicionar novas funcionalidades sem alterar o que já está funcionando.
+
+Isso ajuda a evitar erros e facilita futuras alterações.
+
+---
+
+## Estrutura do projeto
+
+O projeto está dividido da seguinte forma:
+
+* `model`: contém as classes que representam os dados do sistema
+* `service`: contém as regras de negócio
+* `App.java`: classe principal responsável pela execução
+
+---
+
+## Considerações finais
+
+O principal objetivo do projeto foi aplicar conceitos de organização de código e boas práticas de programação.
+A refatoração ajudou a deixar o sistema mais estruturado e mais fácil de entender.
+
 - App: execução
