@@ -2,7 +2,6 @@
 
  o objetivo de simular um sistema de provas, contendo participantes, questões e tentativas.
 
----
 
 ## O que o sistema faz
 
@@ -15,7 +14,6 @@ O sistema permite:
 * Registrar respostas
 * Calcular a nota final
 
----
 
 ## Refatoração do código
 
@@ -26,8 +24,6 @@ O código foi reorganizado para melhorar a organização e facilitar o entendime
 * A classe `App` ficou responsável por executar o sistema e interagir com o usuário
 
 
----
-
 ## Aplicação dos princípios SOLID
 
 ### SRP - Princípio da Responsabilidade Única
@@ -35,7 +31,7 @@ O código foi reorganizado para melhorar a organização e facilitar o entendime
 
 Isso evita que uma mesma classe tenha muitas funções diferentes.
 
----
+
 
 ### OCP - Princípio Aberto/Fechado
 
@@ -43,7 +39,6 @@ O sistema foi organizado de forma que seja possível adicionar novas funcionalid
 
 Isso ajuda a evitar erros e facilita futuras alterações.
 
----
 
 ## Estrutura do projeto
 
@@ -53,7 +48,7 @@ O projeto está dividido da seguinte forma:
 * `service`: contém as regras de negócio
 * `App.java`: classe principal responsável pela execução
 
----
+
 
 ## Considerações finais
 
